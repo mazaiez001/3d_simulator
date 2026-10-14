@@ -2,8 +2,6 @@
 
 A small 3D wireframe renderer written from scratch in pure Python. It projects 3D quadrilaterals ("carrés") onto a 2D plane through a pinhole camera placed at the origin, handles occlusion between faces, and draws the result with Python's built-in `turtle` module. No third-party dependencies.
 
-The code and comments are in French (`donne_...` = "gives ...").
-
 ## How it works
 
 1. **Scene**: objects are built from `point`, `vecteur`, `ligne`, `plan` and `carre` (a quadrilateral face made of 4 points).
@@ -56,7 +54,6 @@ face.donne_rotation_carre(point(0, 5, 26), 0.3)
 affichage_liste([face])
 ```
 
-Useful helpers in `definition_3d_2.py`: `donne_vecteur`, `donne_produit_scalaire`, `donne_produit_vectoriel`, `donne_distance_entre_points`, `donne_inter_ligne_plan`, `donne_ver_point_dans_triangle`, `donne_intersection_ligne_carre`, `donne_ligne_transformer`.
 
 ## Notes
 
